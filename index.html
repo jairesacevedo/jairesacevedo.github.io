@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hermes Jair — aplicación personal</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; line-height: 1.65; }
+    h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+    h2 { font-size: 1.1rem; margin-top: 2rem; }
+    .sub { opacity: .7; margin-top: 0; }
+    code { background: rgba(127,127,127,.15); padding: .1em .35em; border-radius: 4px; }
+    footer { margin-top: 3rem; font-size: .85rem; opacity: .7; }
+  </style>
+</head>
+<body>
+  <h1>Hermes Jair</h1>
+  <p class="sub">Aplicación de escritorio de uso personal — no es un servicio público.</p>
+
+  <h2>Qué es</h2>
+  <p>
+    <strong>Hermes Jair</strong> es un agente de escritorio instalado en el computador de su
+    único usuario (Jair Acevedo). Se conecta a las APIs de Google para que su dueño pueda
+    consultar y organizar su propia información desde la terminal. No tiene registro de
+    usuarios, no se distribuye y no presta servicio a terceros.
+  </p>
+
+  <h2>Qué datos de Google usa</h2>
+  <ul>
+    <li><strong>Gmail</strong> (lectura, envío y modificación): leer el correo propio y enviar o responder mensajes a petición del usuario.</li>
+    <li><strong>Google Calendar</strong>: consultar, crear y actualizar eventos del calendario propio.</li>
+    <li><strong>Google Drive</strong>: leer y subir archivos del Drive propio.</li>
+    <li><strong>Google Docs y Sheets</strong>: leer y editar documentos y hojas propias.</li>
+    <li><strong>Contactos</strong> (solo lectura): resolver nombres y correos.</li>
+  </ul>
+
+  <h2>Cómo se tratan los datos</h2>
+  <ul>
+    <li>Todo el procesamiento ocurre en el computador del usuario. Los datos no se envían a servidores propios: no existen.</li>
+    <li>Los tokens de acceso se guardan cifrados en el disco local del usuario y se pueden revocar en cualquier momento.</li>
+    <li>No se venden, comparten ni ceden datos a terceros.</li>
+    <li>No se usan datos de Google para entrenar modelos ni para publicidad.</li>
+    <li>El uso que la aplicación hace de la información recibida de las APIs de Google cumple la
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos de Usuario de los Servicios API de Google</a>,
+        incluidos los requisitos de Uso Limitado.</li>
+  </ul>
+
+  <h2>Cómo revocar el acceso</h2>
+  <p>
+    En <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+    se puede retirar el permiso en cualquier momento; la aplicación deja de tener acceso de inmediato.
+  </p>
+
+  <footer>
+    <p><a href="privacidad.html">Política de privacidad</a> · Contacto: jairesacevedo@gmail.com</p>
+  </footer>
+</body>
+</html>
